@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC04-DDTLogin</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>e2eb3455-9d01-4392-9255-ca56e9f8abcf</testSuiteGuid>
+   <testCaseLink>
+      <guid>51730be7-1aab-48f9-90af-450a071fbc33</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Cura/TC04-DDT</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4568692c-4a9d-4526-9052-299fe9a35319</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4568692c-4a9d-4526-9052-299fe9a35319</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>6ed8212b-4e77-4f48-9a06-30a950127166</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4568692c-4a9d-4526-9052-299fe9a35319</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>145a4407-04c5-49c6-a149-66817ed21365</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
